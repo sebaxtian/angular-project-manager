@@ -26,3 +26,18 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Notas del Proyecto
+
+El directorio `src/app/common` contiene elementos que son compartidos tanto desde la parte privada como en la parte publica.
+
+El directorio `src/app/auth` contiene elementos que solo los usuarios con sesion activa van a poder ver.
+
+El directorio `src/app/public` contiene elementos que cualquier usuario anonimo puede ver.
+
+### Generar un Componente
+
+`ng generate component project-list`
+`ng g c header`
+
