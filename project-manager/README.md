@@ -39,5 +39,6 @@ El directorio `src/app/public` contiene elementos que cualquier usuario anonimo 
 ### Generar un Componente
 
 `ng generate component project-list`
+o
 `ng g c header`
 
